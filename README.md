@@ -37,6 +37,13 @@ llm-security-workbench/
 - **CSV de saída**: armazena uma linha por requisição ao modelo.
 - **Docker Compose**: sobe uma instância reprodutível do n8n.
 
+## Comandos Para Baixar os Modelos Utilizados
+ollama pull llama3.1:8b-instruct-fp16
+ollama pull mistral:7b-instruct-v0.2-fp16
+ollama pull gemma2:9b-instruct-fp16
+ollama pull mistral-nemo:12b-instruct-2407-fp16
+ollama pull gemma3:12b-it-fp16
+
 ## Requisitos
 
 Antes de executar, é necessário ter instalado:
